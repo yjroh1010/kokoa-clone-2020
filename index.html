@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Talk</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fas fa-wifi"></i>
-      </div>
-      <div class="status-bar__column">
-        <span>18:43</span>
-      </div>
-      <div class="status-bar__column">
-        <span>100%</span>
-        <i class="fas fa-battery-full fa-lg"></i>
-        <i class="fas fa-bolt"></i>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Kokoa Talk</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- 상단 와이파이 영역 -->
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
     </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>100%</span>
+      <i class="fas fa-battery-full fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+  <!-- 타이틀 -->
+  <header class="welcome-header">
+    <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+    <p class="welcome-header__text">
+      lf you have a Kokoa Account, log in with email or phone number.
+    </p>
+  </header>
+  <!-- 로그인 영역 -->
+  <form action="friends.html" method="get" id="login-form">
+    <input name="username" type="text" placeholder="Email or Phone number" />
+    <input name="password" type="password" placeholder="Password" />
+    <input type="submit" value="Log In" />
+    <a href="#">Find Kokoa Account or Password</a>
+  </form>
+</body>
+<script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-      <p class="welcome-header__text">
-        lf you have a Kokoa Account, log in with email or phone number.
-      </p>
-    </header>
-
-    <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or Phone number" />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kokoa Account or Password</a>
-    </form>
-  </body>
-  <script
-    src="https://kit.fontawesome.com/6478f529f2.js"
-    crossorigin="anonymous"
-  ></script>
 </html>
